@@ -1,0 +1,78 @@
+<footer id="footer">
+  <div class="footer-wrap">
+    <div class="footer-link">
+      <div class="link-left">
+      <dl class="dl-1">
+          <dt>产品服务</dt>
+          <dd>
+            <ul>
+              <li><a href="https://c.cococn.com">椰云众包平台</a></li>
+              <li><a href="https://g.cococn.com">椰子竞技积分平台</a></li>
+              <li><a href="javascript:void(0)">椰子旅游消费积分平台</a></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl class="dl-2">
+          <dt>企业资质</dt>
+          <dd>
+            <ul>
+              <li class="showZizhi"><a href="javascript:void(0)">椰云资质</a></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl class="dl-3">
+          <dt>合作洽谈</dt>
+          <dd>
+            <ul>
+              <li><a href="mailto:hr@cocogc.cn" title="hr@cocogc.cn">渠道合作</a></li>
+              <li><a href="mailto:hr@cocogc.cn" title="hr@cocogc.cn">市场合作</a></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl class="dl-4">
+          <dt>关于我们</dt>
+          <dd>
+            <ul>
+              <li><a href="about.html">企业介绍</a></li>
+              <li><a href="about.html">联系我们</a></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl class="dl-5">
+        <dt>公司总部地址：海南省澄迈县老城镇海南生态软件园8857号楼</dt>
+      </dl>
+      </div>
+      <div class="link-right">
+          <dl>
+            <dt>联系我们</dt>
+            <dd>
+              <ul>
+                <li>客服热线：0898-3130-5180</li>
+                <li>商务合作：hr@cocogc.cn</li>
+              </ul>
+            </dd>
+          </dl>
+          <div> 
+            <div class="public">
+              <img src="../images/yywl_wc.png" alt="">
+              <p>椰云网络公众号</p>
+            </div>
+            <div class="public">
+                <img src="../images/yyjf_wc.png" alt="">
+              <p>椰子竞技积分公众号</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<div class="footer-bottom">
+  <p>海南自贸区椰云网络科技有限公司 版权所有Copyright@2017-2019 AII Right Reserved</p>
+  <p class="beianWrap">
+    <a href="http://www.beian.miit.gov.cn" target="_Blank" class="beian">琼ICP备18003160号-3</a>
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=46902302000339">
+      <img src="../images/police.png" style="vertical-align: bottom;margin-right: 3px;"/>琼公网安备 46902302000339号
+    </a>
+  </p>
+</div>
+</footer>

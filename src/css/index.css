@@ -1,0 +1,364 @@
+/***************************************************** 品牌释义 **********************************************/
+#Brand {
+  background: #fff;
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+#Brand .brand-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+#Brand img {
+  width: 479px;
+  margin-right: 85px;
+}
+#Brand .info {
+  width: 631px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+#Brand .info p {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 32px;
+  color: #333333;
+  opacity: 1;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+/***************************************************** 产品介绍 **********************************************/
+#Product {
+  position: relative;
+  overflow: hidden;
+}
+#Product .product-wrap {
+  padding: 100px 0;
+  color: #333333;
+}
+#Product .product-wrap h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#Product .product-wrap p {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+}
+#Product .product-wrap ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+#Product .product-wrap ul li {
+  background: #fff;
+  margin-bottom: 60px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+  transition: all 0.5s;
+  border: 1px solid #EEEFF0;
+  transform: translateY(0);
+  cursor: pointer;
+}
+#Product .product-wrap ul li a {
+  display: block;
+}
+#Product .product-wrap ul li img {
+  width: 320px;
+  height: 300px;
+  margin: 34px 110px 34px 175px;
+}
+#Product .product-wrap ul li div {
+  width: 546px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 81px;
+}
+#Product .product-wrap ul li div p {
+  line-height: 32px;
+}
+#Product .product-wrap ul li div span {
+  background: #22adf7;
+  padding: 8px 22px;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 1s;
+}
+#Product .product-wrap ul li:hover {
+  transform: translateY(-5px);
+  border: 1px solid #22adf7;
+}
+#Product .product-wrap ul li:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+#Product .product-wrap ul .li-4:hover {
+  cursor: default;
+}
+#Product .product-wrap ul .li-4 div {
+  text-align: center;
+  margin: 0;
+  padding: 25px 25px 50px 25px;
+}
+#Product .product-wrap ul .li-4 div:first-of-type {
+  border-right: 1px solid #CCCCCC;
+}
+#Product .product-wrap ul .li-4 div h3 {
+  padding: 1px 0 7px 0;
+  margin: 0;
+}
+#Product .product-wrap ul .li-4 div img {
+  margin: 0;
+}
+#Product .product-wrap ul .li-4 div p {
+  margin: 0;
+}
+#Product .bg-circle div {
+  border-radius: 50%;
+  background-image: linear-gradient(-225deg, rgba(248, 248, 253, 0.5) 0%, rgba(216, 221, 232, 0.5) 100%);
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+}
+#Product .bg-circle .cricle01 {
+  top: 0;
+  left: 200px;
+}
+#Product .bg-circle .cricle02 {
+  top: 0;
+  right: 200px;
+}
+#Product .bg-circle .cricle03 {
+  top: 600px;
+  left: 0;
+}
+#Product .bg-circle .cricle04 {
+  top: 600px;
+  right: 0;
+}
+#Product .bg-circle .cricle05 {
+  top: 1200px;
+  left: 200px;
+}
+#Product .bg-circle .cricle06 {
+  top: 1200px;
+  right: 200px;
+}
+#Product .bg-circle .cricle07 {
+  top: 1800px;
+  left: 0;
+}
+#Product .bg-circle .cricle08 {
+  top: 1800px;
+  right: 0;
+}
+/***************************************************** 企业介绍 **********************************************/
+#Profile {
+  color: #fff;
+  background: url(../images/qyjs.png) no-repeat center center;
+  background-size: 100% 100%;
+  padding: 100px 0 92px 0;
+}
+#Profile .profile-wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+#Profile .profile-wrap .dec {
+  color: #fff;
+}
+#Profile .profile-wrap ul li {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+#Profile .profile-wrap ul li:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+/***************************************************** 新闻事件 **********************************************/
+#News .news-wrap {
+  margin: 100px auto;
+  width: 1200px;
+}
+#News .news-wrap .news-info .news-left {
+  background: #fff;
+  height: 300px;
+  width: 794px;
+  display: inline-block;
+}
+#News .news-wrap .news-info .news-left:hover {
+  color: #22ADF7;
+}
+#News .news-wrap .news-info .news-left img {
+  width: 397px;
+  height: 300px;
+}
+#News .news-wrap .news-info .news-left .news-left-info {
+  width: 390px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+}
+#News .news-wrap .news-info .news-left .news-left-info h4 {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 18px;
+}
+#News .news-wrap .news-info .news-left .news-left-info .time {
+  font-size: 12px;
+  color: #999999;
+  margin: 20px 0 2px 0;
+}
+#News .news-wrap .news-info .news-left .news-left-info .content {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+#News .news-wrap .news-info .news-right {
+  display: inline-block;
+  background: #Fff;
+  height: 300px;
+  vertical-align: top;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  width: 396px;
+}
+#News .news-wrap .news-info .news-right li {
+  margin-bottom: 16px;
+}
+#News .news-wrap .news-info .news-right li a {
+  display: inline-block;
+  display: flex;
+  align-self: center;
+}
+#News .news-wrap .news-info .news-right li a:hover .day {
+  color: #22ADF7;
+}
+#News .news-wrap .news-info .news-right li a:hover .year {
+  color: #22ADF7;
+}
+#News .news-wrap .news-info .news-right li a:hover h5 {
+  color: #22ADF7;
+}
+#News .news-wrap .news-info .news-right li:last-of-type {
+  margin: 0;
+}
+#News .news-wrap .news-info .news-right li .time {
+  border-right: 1px solid #CCCCCC;
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+}
+#News .news-wrap .news-info .news-right li .time .day {
+  color: #333333;
+  font-size: 32px;
+}
+#News .news-wrap .news-info .news-right li .time .year {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+#News .news-wrap .news-info .news-right li h5 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  width: 224px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 14px;
+}
+#News .swiper-container {
+  width: 796px;
+  margin: 0;
+  display: inline-block;
+}
+#News .swiper-container .swiper-pagination {
+  width: 317px;
+  right: 42px;
+  text-align: right;
+  display: inline-block;
+  left: auto;
+  bottom: 25px;
+}
+#News .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+  border: 1px solid #cccccc;
+  opacity: 1;
+}
+#News .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background: #22ADF7;
+  border: 1px solid #22ADF7;
+}
+/***************************************************** 企业文化 **********************************************/
+#Culture {
+  background: #fff;
+  padding: 100px 0;
+  height: 492px;
+  box-sizing: border-box;
+}
+#Culture .culture-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+#Culture .culture-wrap ul {
+  display: flex;
+  justify-content: space-around;
+}
+#Culture .culture-wrap ul li {
+  width: 280px;
+  height: 145px;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
+  line-height: 145px;
+  display: inline-block;
+  transition: all 0.5s;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  transform: translateY(0);
+  cursor: pointer;
+}
+#Culture .culture-wrap ul li div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Culture .culture-wrap ul li img {
+  width: 42px;
+  height: 48px;
+  margin-left: 26px;
+}
+#Culture .culture-wrap ul li:hover {
+  transform: translateY(-5px);
+  height: 155px;
+  border: 1px solid #22adf7;
+}
+/***************************************************** 咨询 **********************************************/
+#Consultation {
+  background: url(../images/zixun.png) no-repeat center center;
+  color: #fff;
+  padding: 104px 0;
+}
+#Consultation .consultate-wrap {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+#Consultation .consultate-wrap p {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 48px;
+}
+#Consultation .consultate-wrap span {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 18px;
+}

@@ -1,0 +1,381 @@
+
+
+/***************************************************** 品牌释义 **********************************************/
+#Brand{
+  background: #fff;
+  text-align: center;
+  padding: 100px 0 100px 0;
+  .brand-wrap{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  img{
+    width: 479px;
+    margin-right:85px;
+  }
+  .info{
+    width: 631px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    p{
+      font-size:16px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      line-height:32px;
+      color:rgba(51,51,51,1);
+      opacity:1;
+      margin-bottom: 14px;
+      letter-spacing: 1px;
+    }
+  }
+}
+/***************************************************** 产品介绍 **********************************************/
+#Product{
+  position: relative;
+  overflow: hidden;
+  .product-wrap{
+    padding: 100px 0;
+    color: #333333;
+    h3{
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size:16px;
+      font-family:Microsoft YaHei;
+    }
+    ul{
+      width: 1200px;
+      margin: 0 auto;
+      li{
+        a{
+          display: block;
+        }
+        background: #fff;
+        margin-bottom: 60px;
+        box-shadow:0px 2px 8px rgba(0,0,0,0.16);
+        transition: all 0.5s;
+        border:1px solid #EEEFF0;
+        transform: translateY(0);
+        cursor: pointer;
+        img{
+          width: 320px;
+          height: 300px;
+          margin:34px 110px 34px 175px;
+        }
+        div{
+          width: 546px;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 81px;
+          p{
+            line-height:32px;
+          }
+          span{
+            background: #22adf7;
+            padding: 8px 22px;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 30px;
+            display: inline-block;
+            opacity:0;
+            transform:translateY(10px);
+            transition: all 1s;
+          }
+        }
+        &:hover{
+          transform: translateY(-5px);
+          border:1px solid #22adf7;
+          // box-shadow:0px 2px 8px #22adf7;
+          span{
+            opacity:1;
+            transform:translateY(0);
+          }
+        }
+      }
+      .li-4{
+        &:hover{
+          cursor: default;
+        }
+        div{
+          text-align: center;
+          margin: 0;
+          padding: 25px 25px 50px 25px;
+          &:first-of-type{
+            border-right: 1px solid #CCCCCC;
+          }
+          h3{
+            padding: 1px 0 7px 0;
+            margin: 0;
+          }
+          img{
+            margin: 0;
+          }
+          p{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .bg-circle{
+    div{
+      border-radius: 50%;
+      background-image: linear-gradient(-225deg, rgba(248,248,253,0.5) 0%, rgba(216,221,232,0.5) 100%);
+      // background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      z-index: -1;
+    }
+    .cricle01{
+      top: 0;
+      left: 200px;
+    }
+    .cricle02{
+      top: 0;
+      right: 200px;
+    }
+    .cricle03{
+      top: 600px;
+      left: 0;
+    }
+    .cricle04{
+      top: 600px;
+      right: 0;
+    }
+    .cricle05{
+      top: 1200px;
+      left:200px;
+    }
+    .cricle06{
+      top: 1200px;
+      right: 200px;
+    }
+    .cricle07{
+      top:1800px;
+      left:0
+    }
+    .cricle08{
+      top: 1800px;
+      right: 0;
+    }
+  }
+}
+
+/***************************************************** 企业介绍 **********************************************/
+#Profile{
+  color: #fff;
+  background: url(../images/qyjs.png) no-repeat center center;
+  background-size: 100% 100%;
+  padding: 100px 0 92px 0;
+  .profile-wrap{
+    width: 1000px;
+    margin: 0 auto;
+    .dec{
+      color: #fff;
+    }
+    p{
+
+    }
+    ul{
+      li{
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        &:nth-of-type(1){
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+/***************************************************** 新闻事件 **********************************************/
+#News{
+  .news-wrap{
+    margin: 100px auto;
+    width: 1200px;
+    .news-info{
+      .news-left{
+        background: #fff;
+        height: 300px;
+        width: 794px;
+        display: inline-block;
+        &:hover{
+          color: #22ADF7;
+        }
+        img{
+          width: 397px;
+          height: 300px;
+        }
+        .news-left-info{
+          width: 390px;
+          display: inline-block;
+          vertical-align: top;
+          padding: 40px 40px 0 40px;
+          box-sizing: border-box;
+          h4{
+            font-weight:bold;
+            line-height:24px;
+            font-size: 18px;
+          }
+          .time{
+            font-size:12px;
+            color: #999999;
+            margin: 20px 0 2px 0;
+          }
+          .content{
+            color: #999999;
+            font-size: 16px;
+            line-height:24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+          }
+        }
+      }
+      .news-right{
+        display: inline-block;
+        background: #Fff;
+        height: 300px;
+        vertical-align: top;
+        padding: 35px 40px;
+        box-sizing: border-box;
+        width: 396px;
+        li{
+          margin-bottom: 16px;
+          a{
+            display: inline-block;
+            display: flex;
+            align-self: center;
+            &:hover{
+              .day{color: #22ADF7;}
+              .year{color: #22ADF7;}
+              h5{color: #22ADF7;}
+            }
+          }
+          &:last-of-type{
+            margin: 0;
+          }
+          .time{
+            border-right: 1px solid #CCCCCC;
+            display: inline-block;
+            text-align: center;
+            padding-right: 20px;
+            .day{
+              color: #333333;
+              font-size: 32px;
+            }
+            .year{
+              color: #CCCCCC;
+              font-size: 14px;
+            }
+          }
+          h5{
+            font-size: 16px;
+            line-height:24px;
+            color: #333;
+            width: 224px;
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 14px;
+          }
+        }
+      }
+    }
+  }
+  .swiper-container{
+    width: 796px;
+    margin:0;
+    display: inline-block;
+    .swiper-pagination {
+      width: 317px;
+      right: 42px;
+      text-align: right;
+      display: inline-block;
+      left: auto;
+      bottom: 25px;
+      .swiper-pagination-bullet{
+        background: #fff;
+        border: 1px solid rgba(204,204,204,1);
+        opacity:1;
+      }
+      .swiper-pagination-bullet-active{
+        background: #22ADF7;
+        border: 1px solid #22ADF7;
+      }
+    }
+  }
+}
+
+/***************************************************** 企业文化 **********************************************/
+#Culture{
+  background: #fff;
+  padding: 100px 0;
+  height: 492px;
+  box-sizing: border-box;
+  .culture-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    ul{
+      display: flex;
+      justify-content: space-around;
+      li{
+        width: 280px;
+        height: 145px;
+        box-shadow:0px 1px 9px rgba(0,0,0,0.16);
+        line-height: 145px;
+        display: inline-block;
+        transition: all .5s;
+        font-size: 20px;
+        font-weight:bold;
+        border:1px solid #fff;
+        transform: translateY(0);
+        cursor: pointer;
+        div{
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        img{
+          width: 42px;
+          height: 48px;
+          margin-left: 26px;
+        }
+        &:hover{
+          transform: translateY(-5px);
+          height:  155px;
+          // transform: scaleY(1.05);
+          border:1px solid #22adf7;
+        }
+      }
+    }
+  }
+}
+/***************************************************** 咨询 **********************************************/
+#Consultation{
+  background: url(../images/zixun.png) no-repeat center center;
+  color: #fff;
+  padding: 104px 0;
+  .consultate-wrap{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    p{
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: 48px;
+    }
+    span{
+      display: inline-block;
+      margin: 0 auto;
+      font-size: 18px;;
+    }
+  }
+}
+

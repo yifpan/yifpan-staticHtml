@@ -1,0 +1,118 @@
+.about-articel {
+  background: #fff;
+  width: 1200px;
+  margin: 98px auto 12px auto;
+  min-height: 516px;
+  padding-top: 1px;
+  font-size: 16px;
+}
+.about-articel .about-company {
+  margin: 50px 50px 20px 50px;
+  padding-bottom: 80px;
+}
+.about-articel dl {
+  line-height: 30px;
+}
+.about-articel dl ul li {
+  margin: 10px 0;
+}
+.about-articel h2 {
+  margin-bottom: 40px;
+}
+.about-articel .culture {
+  background: #fff;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+.about-articel .culture .culture-wrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+.about-articel .culture .culture-wrap li {
+  width: 255px;
+  height: 145px;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
+  line-height: 145px;
+  display: inline-block;
+  transition: all 0.5s;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  transform: translateY(0);
+}
+.about-articel .culture .culture-wrap li div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-articel .culture .culture-wrap li img {
+  width: 42px;
+  height: 48px;
+  margin-left: 26px;
+}
+.about-articel .culture .culture-wrap li:hover {
+  transform: translateY(-5px);
+  height: 155px;
+  border: 1px solid #22adf7;
+}
+.about-articel .behavior {
+  line-height: 26px;
+  margin: 10px 0;
+  text-indent: 2em;
+}
+.about-articel .behaviorFrom {
+  float: right;
+}
+/******************************************************  联系我们 **********************************************************/
+#location {
+  background: url("../images/mapWrap.png") no-repeat center center;
+  width: 100%;
+  height: 752px;
+}
+#location h2 {
+  color: #fff;
+  padding-top: ;
+}
+#location .dec {
+  color: #fff;
+  font-size: 16px;
+}
+#location #map {
+  display: inline-block;
+}
+#location #map .anchorBL {
+  display: none;
+}
+#location .locationWrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 102px;
+}
+#location .locationWrap ul {
+  display: inline-block;
+  color: #fff;
+  margin-left: 54px;
+  vertical-align: top;
+}
+#location .locationWrap ul li img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 57px;
+}
+#location .locationWrap ul li div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 26px;
+  margin-top: 14px;
+}
+#location .locationWrap ul li div h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#location .locationWrap ul li div p {
+  font-size: 16px;
+}
